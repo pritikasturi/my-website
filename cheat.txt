@@ -1,0 +1,287 @@
+    1  git config --global user.name "Priti"
+    2  git config --global user.email "kasturi.priti2014@gmail.com"
+    3  notepad++ ~/.bash_profile
+    4  notepad++ ~/.bash_profile
+    5  exit
+    6  git config --global --list
+    7  notepad++  .bash_profile
+    8  notepad++ .bash_profile
+    9  notepad++
+   10  notepad++ ~/.bash_profile
+   11  alias npp+'notepad++ -multiInst -nosession'
+   12  notepad++ ~/.bash_profile
+   13  exit
+   14  npp
+   15  exit
+   16  cat ~/.gitconfig
+   17  git config --global core.editor "notepad++.exe multiInst -nosession"
+   18  git config --global --list
+   19  git config --global -e
+   20  exit
+   21  p4merge
+   22  exit
+   23  git config --global merge.tool p4merge
+   24  git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+   25  git config --global mergetool.prompt files
+   26  git congif --global mergetool.prompt false
+   27  git config --global mergetool.prompt false
+   28  clear
+   29  git config --global diff.tool p4merge
+   30  git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+   31  git config --global difftool.prompt false
+   32  git config --global --list
+   33  git config --global -e
+   34  clear
+   35  mkdir projects
+   36  pwd
+   37  exit
+   38  pwd
+   39  mkdir projects
+   40  ls -al
+   41  cd projects
+   42  pwd
+   43  git init demo
+   44  ls
+   45  cd demo
+   46  ls -al
+   47  git status
+   48  mate README.md
+   49  npp README.txt
+   50  git status
+   51  git add README.txt
+   52  git status
+   53  git commit -m "First file in demo reppo"
+   54  git status
+   55  ls -al
+   56  cd .git
+   57  ls -al
+   58  cd ..
+   59  rm -rf .gif
+   60  ls -al
+   61  git status
+   62  rm -rf .git
+   63  git status
+   64  ls -al
+   65  pwd
+   66  cd ..
+   67  cd ..
+   68  pwd
+   69  ls
+   70  cd projects
+   71  ls 
+   72  cd demo
+   73  pwd
+   74  ls
+   75  ls -al
+   76  git init .
+   77  ls -al
+   78  git status
+   79  npp LICENSE.txt
+   80  git status
+   81  git add .
+   82  git status
+   83  git commit 
+   84  git status
+   85  git log
+   86  git show
+   87  git status
+   88  ls
+   89  npp README.txt 
+   90  git status
+   91  git ls-files
+   92  touch new.file
+   93  ls
+   94  git status
+   95  git ls-files
+   96  rm new.files
+   97  rm new.file
+   98  git status
+   99  git commit -am "Updating README"
+  100  git log
+  101  git status
+  102  npp README.txt
+  103  git status
+  104  git add .
+  105  git status
+  106  git reset HEAD README.txt
+  107  npp README.txt
+  108  git status
+  109   git checkout --README.txt
+  110  git status
+  111  git checkout -- README.txt
+  112  git status
+  113  npp README.txt
+  114  git status
+  115  git log
+  116  git help log
+  117  git help log
+  118  git log --oneline --graph --decorate --all
+  119  git config --global alias.hist "log --oneline --graph --decorate --all"
+  120  git config --global --list
+  121  git hist
+  122  git hist LICENSE.txt
+  123  npp example.txt
+  124  git status
+  125  git add example.txt
+  126  git commit -m "Adding example file"
+  127  git mv example.txt
+  128  git mv example.txt new.txt
+  129  git status
+  130  ls
+  131  git rm new.txt
+  132  git status
+  133  ls
+  134  git rm new.txt
+  135  git rm -f new.txt
+  136  ls
+  137  git status
+  138  git commit -m "deleting new file"
+  139  git status
+  140  ls
+  141  touch myfile.txt
+  142  ls
+  143  ls -l
+  144  git status
+  145  git add -u
+  146  git status
+  147  git add -A
+  148  git status
+  149  git commit -m "add"
+  150  git ls -l
+  151  ls -l
+  152  rm myfile.txt
+  153  git status
+  154  git add -u
+  155  git status
+  156  git commit -m "deleted and updated"
+  157  git status
+  158  ls -l
+  159  ls -al
+  160  npp application.log
+  161  npp application.log
+  162  ls
+  163  git status
+  164  npp .gitignore
+  165  git status
+  166  git add .gitignore
+  167  git commit -m "Adding ignore file"
+  168  git status
+  169  ls
+  170  cd projects
+  171  pwd
+  172  git clone git@github.com:pritikasturi/my-website.git
+  173  git clone git@github.com:pritikasturi/my-website.git
+  174  pwd
+  175  ls
+  176  pwd
+  177  cd ~
+  178  pwd
+  179  rm .ssh
+  180  rm -f asdfghjkl.txt
+  181  git status
+  182  cd .ssh
+  183  ls
+  184  rm asdfghjkl.pub
+  185  git status
+  186  ls
+  187  rm asdfghjkl
+  188  rm known_host
+  189  rm known_hosts
+  190  git status
+  191  clear
+  192  cd.
+  193  cd .
+  194  cd ..
+  195  cd projects
+  196  cd projects
+  197  cd demo
+  198  mkdir .ssh
+  199  cd .ssh
+  200  ssh-keygen -t rsa -C "kasturi.priti2014@gmail.com"
+  201  ls -al
+  202  ls
+  203  npp id_rsa.pub
+  204  cd ..
+  205  cd ..
+  206  cd ..
+  207  cd users
+  208  cd .ssh
+  209  cd~
+  210  cd ~
+  211  pwd
+  212  cd .ssh
+  213  ls
+  214  ls -al
+  215  npp id_rsa.pub
+  216  npp id_rsa.pub
+  217  cd ~
+  218  cd .ssh
+  219  ssh -T git@github.com
+  220  cd projects
+  221  cd ..
+  222  cd ..
+  223  cd ..
+  224  cd ..
+  225  projects
+  226  pwd
+  227  cd ..
+  228  ~
+  229  cd ~
+  230  cd ..
+  231  cd ..
+  232  cd projects
+  233  cd Program Files
+  234  cd programfiles
+  235  pwd
+  236  cd projects
+  237  cd demo
+  238  pwd
+  239  cd ..
+  240  git clone git@github.com:pritikasturi/my-website.git
+  241  ls -l
+  242  cd my-website
+  243  ls -al
+  244  remote -v
+  245  git remote -v
+  246  ls -l
+  247  rm -rf my-website
+  248  ls -l
+  249  cd ..
+  250  ls -l
+  251  rm -rf my-website
+  252  ls -l
+  253  git clone git@github.com:pritikasturi/my-website.git
+  254  ls -l
+  255  rm -rf my-website
+  256  ls -l
+  257  git clone git@github.com:pritikasturi/my-website.git website
+  258  ls -l
+  259  cd website
+  260  ls -al
+  261  ls
+  262  ls -lrt
+  263  ls -la
+  264  show user
+  265  cd ..
+  266  npp testing.txt
+  267  cat >test.txt
+  268  ls -l
+  269  -r test.txt
+  270  cat test.txt
+  271  vi test.txt
+  272  cat test.txt 
+  273  ls -lrt
+  274  cat test.txt | grep n 
+  275  ls -lrt
+  276  vi test.txt 
+  277  history
+  278  ls -lrt
+  279  cat test.txt | grep n
+  280  cat test.txt | grep -i n
+  281  cat test.txt | grep -in n
+  282  cat test.txt | grep -n
+  283  cat test.txt | grep -n pri
+  284  ls -lrt
+  285  nano test.txt 
+  286  history
+  287  history >cheat.txt
