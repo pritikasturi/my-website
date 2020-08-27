@@ -1,7 +1,4 @@
 # My Website
 
 
-This is really awesome website
-
-
-update locally
+update done for rebase
